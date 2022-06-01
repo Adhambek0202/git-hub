@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/bgimg.jpg);
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 40px;
+}
+.site-know {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+.learn {
+  width: 100%;
+  max-width: 525px;
+
+}
+.learn__heading {
+  margin: 0px;
+  padding: 0px;
+  width: 540px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 55px;
+  font-size: 50px;
+}
+.learn__text {
+  width: 450px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 16px;
+}
+.site-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 5px;
+}
+.site_form__content {
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 15px;
+  padding: 17px 90px;
+  background-color: #5E54A4;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.site-form__wrap {
+  position: relative;
+}
+.site-form__input {
+  width: 460px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(94, 89, 89);
+  padding: 15px 32px ;
+}
+.site-form__error-text {
+  top: 50px;
+  left: 265px;
+  position: absolute;
+  color: #FF7979;
+  display: none;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+}
+.site-form__input:not(:focus):not(:placeholder-shown):invalid + .site-form__error-text {
+  display: block;
+}
+.site-form__input:not(:focus):not(:placeholder-shown):invalid {
+  border: red solid 1px;
+  background-image: url(/img/xato.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 27px);
+}
+.site-form__btn {
+  background-color: #38CC8B;
+  color: #ffffff;
+  width: 460px;
+  border-radius: 6px;
+  border: none;
+  padding: 15px 134px;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 15px;
+}
+.site-form__text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  color: #BAB7D4;
+}
+.site-form__text2 {
+  color: rgb(194, 60, 60);
+}
